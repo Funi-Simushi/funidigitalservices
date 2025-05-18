@@ -1,0 +1,30 @@
+/* Minimal Digital Feel */
+body {
+    background-color: #101010;
+    color: #f0f0f0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Subtle Neon Effects */
+.subtle-neon {
+    color: #cccccc;
+    text-shadow: 0 0 5px #222, 0 0 15px #333, 0 0 30px #444;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.subtle-neon:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px #555, 0 0 20px #666, 0 0 30px #777;
+}
+
+/* Subtle Glow */
+.subtle-glow {
+    border-bottom: 1px solid #444;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #111;
+    padding: 1.5rem 0;
+}

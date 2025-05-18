@@ -1,0 +1,15 @@
+{% extends "pages/base.html" %}
+{% block content %}
+<h1>Our Blog</h1>
+<p>Insights, case studies, and tech updates from Funi Digital Services.</p>
+
+{% for post in posts %}
+<div class="mb-4">
+    <h3><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h3>
+    <p>{{ post.summary }}</p>
+    <small class="text-muted">Posted on {{ post.published_date }}</small>
+</div>
+{% empty %}
+<p>No blog posts yet. Stay tuned!</p>
+{% endfor %}
+{% endblock %}

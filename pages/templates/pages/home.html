@@ -1,0 +1,38 @@
+{% extends 'pages/base.html' %}
+
+{% block content %}
+<section class="hero text-center py-5 text-light bg-primary">
+    <h1>Welcome to Funi Digital Services</h1>
+    <p>Your digital solutions start here. We provide cutting-edge technology services to elevate your business.</p>
+    <a href="{% url 'services' %}" class="btn btn-light btn-lg mt-3">Explore Our Services</a>
+</section>
+
+<section class="container py-5">
+    <h2>Our Services</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Web Development</h3>
+            <p>We build responsive and user-friendly websites tailored to your needs.</p>
+        </div>
+        <div class="col-md-4">
+            <h3>Software Solutions</h3>
+            <p>Custom software to streamline your operations and improve efficiency.</p>
+        </div>
+        <div class="col-md-4">
+            <h3>IT Support</h3>
+            <p>Comprehensive support to keep your systems running smoothly.</p>
+        </div>
+    </div>
+</section>
+
+<section class="bg-light py-5">
+    <div class="container">
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li>Experienced team of tech professionals</li>
+            <li>Custom solutions to fit your business</li>
+            <li>Reliable support and maintenance</li>
+        </ul>
+    </div>
+</section>
+{% endblock content %}

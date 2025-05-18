@@ -1,0 +1,47 @@
+/* Digital Feel Styles */
+body {
+    background-color: #101010;
+    color: #f0f0f0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Neon Effects */
+.neon-border {
+    border: 2px solid #00ffff;
+    box-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff, 0 0 45px #00ffff;
+}
+
+.neon-text {
+    color: #00ffff;
+    text-shadow: 0 0 8px #00ffff, 0 0 16px #00ffff, 0 0 24px #00ffff;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.neon-text:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
+}
+
+/* Link Styles */
+.neon-link {
+    color: #00ffff;
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.neon-link:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #111;
+    padding: 1.5rem 0;
+    border-top: 2px solid #00ffff;
+}
+
+.footer p {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
